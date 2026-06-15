@@ -1,0 +1,80 @@
+./datasets/*
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+.env.*
+
+# Logs
+logs/
+*.log
+
+# Dataset storage
+data/
+datasets/
+
+# Model artifacts
+models/
+weights/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Training outputs
+outputs/
+runs/
+results/
+predictions/
+
+# Experiment tracking
+mlruns/
+wandb/
+
+# Temporary files
+tmp/
+temp/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# AWS downloads
+*.zip
+*.tar
+*.tar.gz
+
+# Dataset archives
+downloads/
+
+# Kaggle datasets
+kaggle_data/
+
+# Segmentation masks generated during preprocessing
+generated_masks/
+
+# Cache
+.cache/
+
+#data folders
+data/raw/*
+data/processed/*
+data/external/*
+
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/external/.gitkeep
