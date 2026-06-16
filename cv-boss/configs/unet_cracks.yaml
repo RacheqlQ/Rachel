@@ -1,0 +1,10 @@
+dataset: cracks_with_mask
+
+epochs: 50
+batch_size: 8
+
+image_size: 256
+
+learning_rate: 0.001
+
+project: outputs/unet_cracks

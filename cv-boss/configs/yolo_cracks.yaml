@@ -1,0 +1,10 @@
+#dataset: cracks
+model: yolov8n.pt
+
+epochs: 50
+batch_size: 16
+imgsz: 640
+
+optimizer: SGD
+
+project: outputs/yolo_cracks
